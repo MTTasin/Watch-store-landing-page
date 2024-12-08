@@ -21,18 +21,17 @@ export default function Hero() {
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
-          delay: 2500,
+          delay: 3000,
           disableOnInteraction: false,
         }}
         loop={true}
-
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper"
+        className="mySwiper h-[90vh]"
       >
         <SwiperSlide className="relative h-full">
-          <img src={img1} alt="" />
-          <div className="absolute top-0 left-0  h-full grid grid-cols-5 items-center text-left lg:text-2xl md:text-xl text-white">
+          <img src={img1} alt="" className="h-[90vh] w-full object-cover"/>
+          <div className="absolute top-0 left-0  h-[90vh] grid grid-cols-5 items-center text-left lg:text-2xl md:text-xl text-white">
             <div></div>
             <div className="lg:col-span-1 col-span-3 lg:bg-none bg-black lg:bg-opacity-0 bg-opacity-30 lg:p-0 p-2 rounded-lg">
               <h2 className="fertuzy text-white lg:text-5xl md:text-4xl  text-3xl underline armani">
@@ -52,7 +51,7 @@ export default function Hero() {
           </div>
         </SwiperSlide>
         <SwiperSlide className="relative h-full">
-          <img src={img2} alt="" />
+        <img src={img2} alt="" className="h-[90vh] w-full object-cover"/>
           <div className="absolute top-0 left-0  h-full grid grid-cols-5 items-center text-left lg:text-2xl md:text-xl text-white">
             <div></div>
             <div className="lg:col-span-1 col-span-3 lg:bg-none bg-black lg:bg-opacity-0 bg-opacity-30 lg:p-0 p-2 rounded-lg">
@@ -73,7 +72,7 @@ export default function Hero() {
           </div>
         </SwiperSlide>
         <SwiperSlide className="relative h-full">
-          <img src={img3} alt="" />
+        <img src={img3} alt="" className="h-[90vh] w-full object-cover"/>
           <div className="absolute top-0 left-0  h-full grid grid-cols-5 items-center text-left lg:text-2xl md:text-xl text-white">
             <div></div>
             <div className="lg:col-span-1 col-span-3 lg:bg-none bg-black lg:bg-opacity-0 bg-opacity-30 lg:p-0 p-2 rounded-lg">

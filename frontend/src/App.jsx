@@ -3,7 +3,7 @@ function App() {
 
   return (
     <>
-      <div className="max-w-[1440px] mx-auto bg-black"><Home /></div>
+      <div className="max-w-[1600px] mx-auto bg-black"><Home /></div>
     </>
   )
 }
