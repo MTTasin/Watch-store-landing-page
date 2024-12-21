@@ -10,7 +10,8 @@ export default function Home() {
             <Hero />
             <Category />
 
-            <div className="flex flex-wrap justify-center">
+            <div><h2 className="text-center mt-10 text-3xl font-bold text-white underline armani fertuzy">Best In Store</h2></div>
+            <div className="flex flex-wrap gap-2 justify-center">
                 <Card />
                 <Card />
                 <Card />
