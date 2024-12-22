@@ -1,14 +1,14 @@
 import { Button, Navbar } from "flowbite-react";
 import { FaRegUser } from "react-icons/fa";
 import { IoIosSearch } from "react-icons/io";
-
+import logo from "../assets/logo.svg";
 
 
 export default function NavBar() {
   return (
     <Navbar fluid rounded className="bg-[#98683b]">
       <Navbar.Brand href="#">
-        <img src="/logo.svg" className="mr-3 h-6 sm:h-9" alt="Flowbite React Logo" />
+        <img src={logo} className="mr-3 h-6 sm:h-9" alt="" />
         <span className="self-center whitespace-nowrap text-2xl font-semibold text-white font-mono uppercase">Brionzz</span>
       </Navbar.Brand>
       <div className="flex md:order-2 justify-between items-center text-white gap-3 ">
