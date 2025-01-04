@@ -8,8 +8,15 @@ import w3 from "./../assets/img/w3.png";
 import w4 from "./../assets/img/w4.png";
 import bg from "./../assets/bg.jpg";
 import bg2 from "./../assets/bg2.jpg";
+import g1 from "./../assets/gallery/1.jpeg";
+import g2 from "./../assets/gallery/2.jpeg";
+import g3 from "./../assets/gallery/3.jpeg";
+import g4 from "./../assets/gallery/4.jpeg";
+import g5 from "./../assets/gallery/5.jpeg";
+import g6 from "./../assets/gallery/6.jpeg";
 
 export default function Home() {
+    
   return (
     <>
       <NavBar />
@@ -64,6 +71,18 @@ export default function Home() {
           </span>
         </div>
 
+      </div>
+
+
+
+
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-0 w-full h-[300px]">
+      <img src={g1} alt=""/>
+      <img src={g2} alt=""/>
+      <img src={g3} alt=""/>
+      <img src={g4} alt=""/>
+      <img src={g5} alt=""/>
+      <img src={g6} alt=""/>
       </div>
     </>
   );
