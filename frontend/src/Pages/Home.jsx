@@ -6,6 +6,7 @@ import w1 from "./../assets/img/w1.png";
 import w2 from "./../assets/img/w2.png";
 import w3 from "./../assets/img/w3.png";
 import w4 from "./../assets/img/w4.png";
+import bg from "./../assets/bg.jpg"
 
 export default function Home() {
     return (
@@ -40,6 +41,18 @@ export default function Home() {
                     price="1000"
                     rating={3.4}
                 />
+            </div>
+            <div className="w-full h-[550px] bg-cover bg-center bg-no-repeat text-white"
+            style={{ 
+                backgroundImage: `url(${bg})`
+              }}
+              >
+<div className="flex flex-col items-center justify-center h-full gap-5"><h2 className="text-3xl font-bold text-white underline armani fertuzy">Most Wanted Of The Year</h2>
+              <span><button className="btn z-20 bg-[#343435]  w-24 h-12 border-b-8 active:border-b-4 border-[#d4ab84] rounded-lg">Shop Now</button></span>
+</div>
+
+
+
             </div>
             
         </>
